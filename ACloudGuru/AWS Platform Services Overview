@@ -1,0 +1,38 @@
+
+*   A Region is a geor=graphical area and each Region contains 2 or more Availability Zones. 
+*   An Availability zone (AZ) is simply a datacenter.
+*   AWS Edge Network Locations are end points for AWS, which are used of caching the content. Typically this consists of CloudFront,    
+    Amazon's Content Delivery Network (CDN).
+
+There were 16 regions (as of 2017 December) and 42 availability zones. 
+In 2018, 6 more regions and 17 more availability zones will be added.
+As of 08/07/2018, there are 55 Availibility zones and 18 geographic regions and 1 local region are present around the world. AWS have plan for 12 more Availability Zones and four more Regions in Bahrain, Hong Kong SAR, Sweden, and a second AWS GovCloud Region in the US.
+https://aws.amazon.com/about-aws/global-infrastructure/
+
+To deliver content to end users with lower latency, Amazon CloudFront uses a global network of 132 Points of Presence (121 Edge Locations and 11 Regional Edge Caches) in 59 cities across 26 countries.
+https://aws.amazon.com/cloudfront/details/
+
+AWS Global Infrastructure:
+==========================
+
+1. Compute: Services under compute as of 08/07/2018.
+    a. EC2 (Virtual Servers in the cloud)
+    b. Light shell (Launch and Manage the private virtual servers)
+    c. Elastic Container Services (Run and Manage Docker Containers)
+    d. EKS (Manage Kubernetes on AWS)
+    e. Lambda (Run code without thinking about Servers)
+    f. Batch (Run batch jobs at any scale)
+    g. Elastic Beanstalk (Run and Manage Web Apps)
+    
+2. Storage:
+    a. S3 (Scalable Storage in the cloud)
+    b. EFS (Managed File Storage for EC2)
+    c. Galcier (Archive storage in the cloud)
+    d. Storage Gateway (Hybrid Storage Integration)
+    
+3. Database:
+    a. RDS (Managed Relational Database Service)
+    b. Dynamo DB (Managed NoSQL database)
+    c. Elastic Cache (In-Memory cache)
+    d. Neptune (Fast reliable graph database built for the cloud)
+    e. Amazon Redshift (Fast, Simple, Cost-effective Data Warehousing)
