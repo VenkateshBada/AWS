@@ -39,3 +39,26 @@ AWS Global Infrastructure:
     c. Elastic Cache (In-Memory cache)
     d. Neptune (Fast reliable graph database built for the cloud)
     e. Amazon Redshift (Fast, Simple, Cost-effective Data Warehousing)
+ 
+ 4. Migration:
+    a. AWS Migration Hub (Simplify and accelerate migration of your data centers to AWS)
+    b. Application Discovery Service (Discover on-premises application inventory and dependencies)
+    c. Database Migration Service (Managed Database Migration Service)
+    d. Server Migration Service (Migrate on-premises servers to AWS)
+    e. Snowball (Large scale Data transport)
+ 
+ 5. Networking & Content Delivery:
+    a. VPC (Isolated Cloud Resources)
+    b. CloudFront (Global Content Delivery Network)
+    c. Route 53 (Scalable DNS and Domain Name Registration)
+    d. API Gateway (Build, Deploy and Manage APIs)
+    e. Direct Connect (Dedicated Network connections to AWS)
+    
+ 5. Developer Tools:
+    a. CodeStar (Quickly develop, build and deploy applications)
+    b. CodeCommit (Store Code in Git private repositories)
+    c. CodeBuild (Build and Test Code)
+    d. CodeDeploy (Automate Code Deployments)
+    e. CodePipeline (Release Software using continuous Delivery)
+    f. Cloud9 (A Cloud IDE for Writing, Running and Debugging Code)
+    g. X-Ray (Analyze and Debug your applications)
