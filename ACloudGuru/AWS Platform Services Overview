@@ -120,13 +120,13 @@ AWS Global Infrastructure:
     m. Artifact (AWS Compliance Reports and Agreements)
 
 11.Mobile Services
-    a. Mobile Hub ()
-    b. AWS AppSync ()
-    c. Device Farm ()
-    d. Mobile Analytics ()
+    a. Mobile Hub (Build, Test and Monitor Mobile Apps)
+    b. AWS AppSync (Real-time Data sync using GraphQL for Mobile and Web Apps, Online or Offline)
+    c. Device Farm (Test Android, iOS, and Web Apps on Real Time in the cloud )
+    d. Mobile Analytics (Collect, View and Export App Analytics)
  
 12. AR & VR
-    a. Amazon Sumerian ()
+    a. Amazon Sumerian (Build AR, VR and 3D applications)
  
 13. Application Integration
     a. Step Functions ()
