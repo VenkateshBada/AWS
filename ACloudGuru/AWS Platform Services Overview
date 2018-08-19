@@ -62,3 +62,24 @@ AWS Global Infrastructure:
     e. CodePipeline (Release Software using continuous Delivery)
     f. Cloud9 (A Cloud IDE for Writing, Running and Debugging Code)
     g. X-Ray (Analyze and Debug your applications)
+
+6. Management Tools:
+    a. CloudWatch (Monitor Resources and Applications)
+    b. AWS Auto Scaling (AWS Auto Scaling enables to quickely scale your entire applications on AWS)
+    c. CloudFormation (Create and Manage Resources with Templates)
+    d. CloudTrail (Track User Activity and API Usage)
+    e. Config (Track Resource Inventory and changes)
+    f. OpsWorks (Configuration Management with Chef and Puppet)
+    g. Service Catalog (Create and Use Standardized products)
+    h. Systems Manager (AWS Systems Manages is a central place to view and manage AWS resources)
+    i. Trusted Advisor (Optimize Performance and Security)
+    j. Managed Services (IT Operations Management for AWS)
+    
+ 7. Media Services:
+    a. Elastic Transcoder (Easy-to-Use scalable Media Transcoding)
+    b. Kinesis Video Streams (Capture, Proces and Store Video streams for Analytics and Machine learning)
+    c. MediaConvert (Convert file-based content for broadcast and multi-screen delivery)
+    d. MediaLive (Convert Media inputs into live outputs for broadcast and streaming delivery)
+    e. MediaPackage (Deliver media into many devices using just-in-time format conversion )
+    f. MediaStore (Store and Deliver media assets for live or on-demand media workflows)
+    g. MediaTailor (Personalize and monetize the multiscreen content with server-side ad insertion)
