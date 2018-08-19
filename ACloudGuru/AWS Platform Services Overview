@@ -83,3 +83,38 @@ AWS Global Infrastructure:
     e. MediaPackage (Deliver media into many devices using just-in-time format conversion )
     f. MediaStore (Store and Deliver media assets for live or on-demand media workflows)
     g. MediaTailor (Personalize and monetize the multiscreen content with server-side ad insertion)
+
+ 8. Machine Learning:
+    Amazon SageMaker (Build, Train and Deploy Machine Learning Models)
+    Amazon Comprehend (Analyze Unstructured Text)
+    AWS DeepLens (Deep Learning Enabled Video Camera)
+    Amazon Lex (Build Voice and Text Chatbots)
+    Machine Learning (Build Smart Applications Quickly and Easily)
+    Amazon Polly (Turn Text into Lifelike Speech)
+    Rekognition (Search and Analyze Images)
+    Amazon Transcribe (Powerful Speech Recognition)
+    Amazon Translate (Translate Text in Realtime)
+ 
+ 9. Analytics:
+    Athena (Query data in S3 using SQL)
+    EMR (Manage Hadoop Framework)
+    CloudSearch (Managed Search Service)
+    Elasticsearch Service (Rund and scale Elasticsearch Clusters)
+    Kinesis (Work with Real-time streaming data)
+    QuickSight (Fast, easy to use business analytics)
+    Data Pipeline (Orchestration for Data Driven work-flows)
+    AWS Glue (AWS Glue is fully managed ETL service)
+ 
+10. Security, Identity & Compliance:
+    IAM (Manage User Access and Encryption Keys)
+    Cognito (User Identity and App Synchronization)
+    Secrets Manager (Easily rotate, manage and retrieve secrets throughout their lifecycle)
+    GuardDuty (Intelligent Thread detection to protect AWS accounts and workloads)
+    Inspector (Analyze applications security)
+    Amazon Macie (Amazon Macie classifies and secure business critical content)
+    AWS Single Sign-On (Manage Single Sing-on (SSO) access to AWS accounts and Business Applications )
+    Certificate Manager (Provision, Manage, and Deploy SSL/TLS Certificates)
+    CloudHSM (Managed Hardware Security Models in the cloud)
+    Directory Service (Host and Manage Active Directory)
+    WAF & Shield (Protects agains DDoS attacks and Malicious web Traffic)
+    Artifact (AWS Compliance Reports and Agreements)
