@@ -19,22 +19,22 @@ AWS Global Infrastructure:
 ==========================
 
 1. Compute: Services under compute as of 08/07/2018.
-    a. EC2 (Virtual Servers in the cloud)
-    b. Light shell (Launch and Manage the private virtual servers)
+    a. EC2 (stands for Elastic Compute Cloud: Virtual Servers in side the AWS cloud platform)
+    b. Lightsail (Launch and Manage the private virtual servers)
     c. Elastic Container Services (Run and Manage Docker Containers)
     d. EKS (Manage Kubernetes on AWS)
     e. Lambda (Run code without thinking about Servers)
     f. Batch (Run batch jobs at any scale)
-    g. Elastic Beanstalk (Run and Manage Web Apps)
+    g. Elastic Beanstalk (Run and Manage Web Apps: This allows developer to focus on code, instead of AWS infrastructure)
     
 2. Storage:
-    a. S3 (Scalable Storage in the cloud)
-    b. EFS (Managed File Storage for EC2)
+    a. S3 (stands for Simple Storage Service: Scalable Storage in the cloud)
+    b. EFS (Elastic File System: Managed File Storage for EC2)
     c. Galcier (Archive storage in the cloud)
     d. Storage Gateway (Hybrid Storage Integration)
     
 3. Database:
-    a. RDS (Managed Relational Database Service)
+    a. RDS (Relational Database Service: Managed Relational Database Service)
     b. Dynamo DB (Managed NoSQL database)
     c. Elastic Cache (In-Memory cache)
     d. Neptune (Fast reliable graph database built for the cloud)
@@ -48,19 +48,19 @@ AWS Global Infrastructure:
     e. Snowball (Large scale Data transport)
  
  5. Networking & Content Delivery:
-    a. VPC (Isolated Cloud Resources)
+    a. VPC (Virtual Private Cloud: Isolated Cloud Resources)
     b. CloudFront (Global Content Delivery Network)
     c. Route 53 (Scalable DNS and Domain Name Registration)
     d. API Gateway (Build, Deploy and Manage APIs)
     e. Direct Connect (Dedicated Network connections to AWS)
     
  5. Developer Tools:
-    a. CodeStar (Quickly develop, build and deploy applications)
+    a. CodeStar (Quickly develop, build and deploy applications; way of collaborating with other developers)
     b. CodeCommit (Store Code in Git private repositories)
     c. CodeBuild (Build and Test Code)
     d. CodeDeploy (Automate Code Deployments)
     e. CodePipeline (Release Software using continuous Delivery)
-    f. Cloud9 (A Cloud IDE for Writing, Running and Debugging Code)
+    f. Cloud9 (A Cloud IDE for Writing, Running and Debugging Code inside the cloud, instead of writing on local machine.)
     g. X-Ray (Analyze and Debug your applications)
 
 6. Management Tools:
@@ -85,7 +85,7 @@ AWS Global Infrastructure:
     g. MediaTailor (Personalize and monetize the multiscreen content with server-side ad insertion)
 
  8. Machine Learning:
-    a. Amazon SageMaker (Build, Train and Deploy Machine Learning Models)
+    a. Amazon SageMaker (Build, Train and Deploy Machine Learning Models, Deep Learning)
     b. Amazon Comprehend (Analyze Unstructured Text)
     c. AWS DeepLens (Deep Learning Enabled Video Camera)
     d. Amazon Lex (Build Voice and Text Chatbots)
@@ -97,7 +97,7 @@ AWS Global Infrastructure:
  
  9. Analytics:
     a. Athena (Query data in S3 using SQL)
-    b. EMR (Manage Hadoop Framework)
+    b. EMR (Elastic MapReduce: Manage Hadoop Framework)
     c. CloudSearch (Managed Search Service)
     d. Elasticsearch Service (Rund and scale Elasticsearch Clusters)
     e. Kinesis (Work with Real-time streaming data)
@@ -106,8 +106,8 @@ AWS Global Infrastructure:
     h. AWS Glue (AWS Glue is fully managed ETL service)
  
 10. Security, Identity & Compliance:
-    a. IAM (Manage User Access and Encryption Keys)
-    b. Cognito (User Identity and App Synchronization)
+    a. IAM (Identity Access Management: Manage User Access and Encryption Keys)
+    b. Cognito (User Identity and App Synchronization), eg: using gmail, facebook on the mobile.
     c. Secrets Manager (Easily rotate, manage and retrieve secrets throughout their lifecycle)
     d. GuardDuty (Intelligent Thread detection to protect AWS accounts and workloads)
     e. Inspector (Analyze applications security)
@@ -116,7 +116,7 @@ AWS Global Infrastructure:
     i. Certificate Manager (Provision, Manage, and Deploy SSL/TLS Certificates)
     j. CloudHSM (Managed Hardware Security Models in the cloud)
     k. kDirectory Service (Host and Manage Active Directory)
-    l. WAF & Shield (Protects agains DDoS attacks and Malicious web Traffic)
+    l. WAF & Shield (Web Applications Firewall: Protects agains DDoS attacks and Malicious web Traffic)
     m. Artifact (AWS Compliance Reports and Agreements)
 
 11.Mobile Services
@@ -129,35 +129,39 @@ AWS Global Infrastructure:
     a. Amazon Sumerian (Build AR, VR and 3D applications)
  
 13. Application Integration
-    a. Step Functions ()
-    b. Amazon MQ ()
-    c. Simple Notification Service ()
-    d. Simple Queue Service ()
-    e. SWF ()
+    a. Step Functions (Coordinate distributed applications)
+    b. Amazon MQ (Managed message broker service for Apache ActiveMQ)
+    c. Simple Notification Service (SNS Pub/Sub, Mobile Push and SMS)
+    d. Simple Queue Service (Managed Message Queues)
+    e. SWF (Workflow service for Coordinating Application Components)
  
 14. Customer Engagement
-    a. Amazon Connectv ()
-    b. Pinpoint ()
-    c. Simple Email Service ()
+    a. Amazon Connect (Amazon Connect is a contact center that enables engagement at any scale)
+    b. Pinpoint (Engage Users via Email, SMS; Push & Analytics)
+    c. Simple Email Service (Email Sending and Receiving Service)
  
 15. Business Productivity
-    a. Alexa for Business ()
-    b. Amazon Chime ()
-    c. WorkDocs ()
-    d. WorkMail ()
+    a. Alexa for Business (Alexa for Business provides tools to Manage Alexa in your organization)
+    b. Amazon Chime (Amazon Chime is a communication service that transforms online meetings.)
+    c. WorkDocs (Secure Enterprise storage and Sharing Service)
+    d. WorkMail (Secure Email and Calendering service)
  
 16. Desktop & App Streaming
-    a. WorkSpaces ()
-    b. AppStream 2.0 ()
+    a. WorkSpaces (Desktops in the cloud)
+    b. AppStream 2.0 (Stream Desktop applications securely to any web browser)
  
 17. Internet of Things
-    a. IoT Core ()
-    b. IoT 1-Click ()
-    c. IoT Device Management ()
-    d. IoT Analytics ()
-    e. Greengrass ()
-    f. Amazon FreeRTOS ()
-    g. IoT Device Defende ()r
+    a. IoT Core (Connect Devices to the Cloud)
+    b. IoT 1-Click (Trigger AWS Lambda functions from simple devices)
+    c. IoT Device Management (Securely Manage Fleets as Small as one Device or as Broad as million devices)
+    d. IoT Analytics (collect, preprocess, store analyze and visualize data of IoT devices)
+    e. Greengrass (Deploy and Run code on your devices)
+    f. Amazon FreeRTOS (Amazon FreeRTOS is an IoT operating system for Microcontrollers)
+    g. IoT Device Defender (Connect Devices to the cloud)
  
 18. Game Development
-    a. Amazon GameLift ()
+    a. Amazon GameLift (Deploy and Scale Session-based multi-player games)
+
+
+
+* Ready Player 1 book for VR.
