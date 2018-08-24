@@ -1,0 +1,15 @@
+* IAM allows to manage users and their level of access to the console. It gives:
+* centralized access to AWS account.
+* Shared access to AWS account.
+* Granular permissions.
+* Identity Federation like link to Facebook, LinkedIn, etc.,
+* Multifactor Authentication.
+* Provides temporary access to users/devices.
+
+* Users
+* Groups (collection of users under one set of permissions)
+* Roles (are created and then assign to AWS resources)
+* Policies (apply policies/permisions to a user or group)
+
+* IAM service does not require region selection. The users/Groups/roles/etc., once created, they are available across the world.
+* Root account is the email account that used for signup.
