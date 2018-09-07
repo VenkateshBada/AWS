@@ -1,0 +1,31 @@
+* EC2 (Elastic Compute Cloud)
+* Elastic Block Storage (EBS)
+* S3 (Simple Storage Service)
+* RDS (Relational Database Services)
+* DynamoDB (NoSQL Database service)
+* ELB (Elastic Load Balancing)
+* SNS (Simple Notification Services)
+* Lambda (Serverless Computing)
+
+IAM (Identity and Access Management): 
+=====================================
+IAM is where you manage your AWS users and access to their AWS accounts and services. The common use of IAM is to manage:
+  Users
+  Groups
+  IAM Access Policies
+  Roles
+Root user is the one which was created during AWS account creation. By default, root user will have full rights and access to every part 
+  of the account. For all other users (except root user), permissions must be given that access to AWS services.
+When a new AWS root account is created, it is best practice to complete the tasks listed in IAM under Security Status.
+   * Delete your root access keys
+   * Activate MFA (Multi-Factor Authentication) on your root account
+   * Create individual IAM users
+   * User groups to assign permissions
+   * Apply an IAM password policy
+AWS best practice is to NEVER use root account for day-to-day use. If full Admin access is needed then create an IAM user and attach the
+    AdministratorAccess policy to it.
+It can often be more convinient and setup groups and assign permissions to the group , rather than manage each user individually.
+Apply an IAM Password Policy: A Password policy dictates the format and expiration rules that must be followed when a user creates or   
+    modifies their password.
+The rules include passwords.
+https://www.lucidchart.com/documents/view/703f6119-4838-4bbb-bc7e-be2fb75e89e5/2
