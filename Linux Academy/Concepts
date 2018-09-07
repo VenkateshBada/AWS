@@ -28,4 +28,5 @@ It can often be more convinient and setup groups and assign permissions to the g
 Apply an IAM Password Policy: A Password policy dictates the format and expiration rules that must be followed when a user creates or   
     modifies their password.
 The rules include passwords.
+Any new or additional users created in AWS account are with NO access to anything by default (except the ability to login).
 https://www.lucidchart.com/documents/view/703f6119-4838-4bbb-bc7e-be2fb75e89e5/2
