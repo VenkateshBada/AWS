@@ -1,0 +1,13 @@
+1. Create an AWS account.
+2. User account to the Development team with access to the core AWS services.
+3. Proper traffic routing into and out of AWS Virtual Private Cloud (VPC)
+4. A location for bulk storage of files.
+5. Servers to host and run project Omega.
+6. A database to store and catalog data.
+7. A way to send notifications (emails or text messages)to Project Omega's team members based on events that may occur with Project Omega's
+   Infrastructure.
+8. A way to internally monitor parts of project Omega's infrastructure.
+9. Automate the process of distributing the incoming (extrnal user) traffic evenly across Project Omega's AWS resources.
+10. Automate the process of scalling up or scalling down AWS resources based on traffic demand.
+11. Setup and configure a webdomain that points to Omega's infrastructure.
+12. Test the possibility of using "Serverless" technology for project Omega.
