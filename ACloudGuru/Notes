@@ -1,0 +1,14 @@
+
+Family    Speciality                            Use case
+========================================================
+F1        Field Programmable Gate Array         Genomics research, financial analytics, real-time videos processing, big data etc.,
+I3        High Speed Storage                    NoSQL DBs, Data Warehousing etc.,
+G3        Graphics Intensive                    Video Encoding/3D Application Streaming
+H1        High Disk Throughput                  MapReduce-based workloads, distributed file systems such as HDFS and Map-R FS.
+T2        Lowest Cost and General Purpose       Web servers/Small DBs
+D2        Dense Storage                         Fileservers/Data Warehousing/Hadoop
+R4        Memory Optimized                      Memory Intense Apps/DBs
+M5        General Purpose                       Application servers
+C5        Compute Optimized                     CPU Intense Apps/DBs
+P3        Graphics/General Purpose GPU          Machine Learning, Bit Coin Mining, etc.,
+X1        Memory Optimized                      SAP HANA/Apache Spark etc.,
