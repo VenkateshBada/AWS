@@ -14,3 +14,18 @@ C5        Compute Optimized                     CPU Intense Apps/DBs
 P3        Graphics/General Purpose GPU          Machine Learning, Bit Coin Mining, etc.,
 X1        Memory Optimized                      SAP HANA/Apache Spark etc.,
 
+Running Webservice in EC2 instance.
+
+1. Download key pair (.pem) file while starting the EC2 instance.
+2. Open puttygen and load this .pem file and then save the private key (.ppk file).
+3. Open the putty. enter ec2-user@ipaddress from EC2 instance and in Auth under SSH load the above .ppk file. Click open to connect to EC2
+   instance.
+4. Type sudo su to get admin (root user) access.
+5. yum update -y to update the securitypatches.
+6. yum install httpd -y to install the Apache HyperText Transfer Protocol (HTTP) server program.
+7. go to cd /var/www/html folder and enter nano index.html -> <html><h1>Welcome to First webserver page</h1></html>. Ctrl + X and y then
+   press enter key.
+8. service httpd start --> to start Apache HyperText Transfer Protocol (HTTP) server.
+9. Copy the url or domain name from AWS EC2 instance and paste it on the browser.
+10. 
+
