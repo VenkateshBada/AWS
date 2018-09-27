@@ -27,5 +27,4 @@ Running Webservice in EC2 instance.
    press enter key.
 8. service httpd start --> to start Apache HyperText Transfer Protocol (HTTP) server.
 9. Copy the url or domain name from AWS EC2 instance and paste it on the browser.
-10. 
 
