@@ -1,3 +1,4 @@
+EC2 instances types.
 
 Family    Speciality                            Use case
 ========================================================
@@ -12,3 +13,4 @@ M5        General Purpose                       Application servers
 C5        Compute Optimized                     CPU Intense Apps/DBs
 P3        Graphics/General Purpose GPU          Machine Learning, Bit Coin Mining, etc.,
 X1        Memory Optimized                      SAP HANA/Apache Spark etc.,
+
