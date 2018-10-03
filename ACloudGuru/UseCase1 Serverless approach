@@ -1,0 +1,12 @@
+Following Use case uses Amazon S3, Gateway, Lambda, DynamoDB and SNS services.
+
+* user clicks on website url that is  stored in S3. 
+* The user can hit submit after entering the data.
+* It goes thru Amazon API Gateway and triggers a Lambda function.
+* Lambda function stores the data onto DynamoDB and pass the same data onto Amazon SNS Queue.
+* The data on Amazon SNS acts as a trigger for another SNS function and takes this data and pass it to Amazon Polly service.
+* Amazon converts this text onto mp3 file and then the same Lambda function stores this mp3 file in S3 bucket. Also update the DynamoDB as 
+  the job is completed.
+* User can be able to search on the website and the request goes thru the Amazon Gateway.
+* It triggers another Lambda function which gets all the posts stored in DynamoDB.
+
