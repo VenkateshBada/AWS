@@ -10,3 +10,19 @@ Following Use case uses Amazon S3, Gateway, Lambda, DynamoDB and SNS services.
 * User can be able to search on the website and the request goes thru the Amazon Gateway.
 * It triggers another Lambda function which gets all the posts stored in DynamoDB.
 
+Solution: First extract the PollyLabResources zip file.
+1. Change the region to N.Verginia, as it is one of the region that fully supports Alexa skills.
+2. Create a DynamoDB table called posts with primary key id.
+3. Go to S3, and create a bucket helpvenkateshstudyawspolly.com and configure the bucket as static website by going to properties of the
+   bucket, and Static website hosting.
+   a. configure index.html and error.html
+4. Create another bucket called pollymp3storagemybucket.
+5. Create a role to communicate with all of these services. Go to IAM, 
+   a. Create a Lambda Role.
+   b. Create a custom policy and copy the json data from lambdajsonpolicy.json file from above extracted file and paste on the JSON editor.
+   c. Give the name as myLamdaPollyPolicy and create policy.
+   d. Go back to IAM and create a Lambda role. Attach the myLamdaPollyPolicy that is created earlier to the role During Permissions. 
+   e. Give the name as myLambdaPollyRole and hit create role.
+6. Go to S3 bucket helpvenkateshstudyawspolly.com permissions and select bucket policy. Paste the json data from
+   bucketpolicypermissions.json file.
+7. Go to Simple Notification Service (SNS) and create a topic with name new_posts and SNSPoly
