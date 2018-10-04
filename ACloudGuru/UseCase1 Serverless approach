@@ -25,4 +25,13 @@ Solution: First extract the PollyLabResources zip file.
    e. Give the name as myLambdaPollyRole and hit create role.
 6. Go to S3 bucket helpvenkateshstudyawspolly.com permissions and select bucket policy. Paste the json data from
    bucketpolicypermissions.json file.
-7. Go to Simple Notification Service (SNS) and create a topic with name new_posts and SNSPoly
+7. Go to Simple Notification Service (SNS) and create a topic with name new_posts and SNSPoly.
+8. Creating Lambda Functions:
+   a. First Lambda function Author from scrath, with name PostReader_NewPosts, Runtime Python 2.7, Choose an existing role called
+      1. myLambdaPollyRole and select Create. This shows the above resources that are created earlier and it can access to. 
+      2. Paste the code from NewPosts.py onto the Lambda Function IDE below on this window and hit save.
+      3. Pass the Environment variables DB_TABLE_NAME value posts and SNS_TOPIC value is arn of new_posts.
+      4. Go to Basic settings and give description and hit save.
+      5. Click on Test button, copy and paste data from sample.json; Leave default Event template and give Event name as HelloJoanna.
+      6. Click on Test and then Details. This data should be inserted to DynamoDB table posts.
+      7. Go to DynamoDB table posts and click on Item to see the data.
